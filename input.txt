@@ -1,0 +1,5 @@
+Caso de rejeição das transições do estado inicial:
+q1a11a111a1q11#q11a1a11q111$a1a11
+
+Caso de aceitação das transições do estado inicial:
+q1a11a111a1q11#q11a1a11q111$a11a1
