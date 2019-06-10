@@ -1,5 +1,16 @@
 Caso de rejeição das transições do estado inicial:
 q1a11a111a1q11#q11a1a11q111$a1a11
 
-Caso de aceitação das transições do estado inicial:
+Caso de aceitação quando a palavra tem apenas um símbolo:
+q1a11a111a1q11#q11a1a11q111$a11
+q1a11a111a1q11#q1a1a111a1q11$a1
+
+Casos de aceitação quando a palavra tem mais de um símbolo:
 q1a11a111a1q11#q11a1a11q111$a11a1
+q1a11a111a1q11#q11a1a11q1$a11a1a11
+q1a11a111a1q1$a11a11
+
+Casos de rejeição quando visita mais de um estado:
+q1a11a111a1q11$a11a11
+q1a11a111a1q11#q11a1a11q111$a111a1
+q1a11a111a1q11#q11a1a11q111#q11a111a111a1q11$a11a1111
