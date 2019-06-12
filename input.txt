@@ -4,14 +4,18 @@ q1a11a111a1eq11#q11a1a11eq111$a1a11
 Caso de rejeição por tentar desempilhar simbolo que não está no topo:
 q1a1a111a1eq11#q11a1a11eq111$a1a11
 q1a11a111a1eq11#q11a1ea11q111$a11a1
-
-Caso de aceitação quando a palavra tem apenas um símbolo:
 q1a11a111a1q11#q11a1a11q111$a11
+
+Caso de rejeição por ter um simbolo na pilha e palavra vazia:
+q1a11ea1eq11#q11a1a11q111$a11
 q1a11a111a1q11#q1a1a111a1q11$a1
 
+Caso de aceitação quando a palavra tem apenas um símbolo:
+q1a11ea1eq11#q11a1a1eeq111$a11a1
+q1a11eeeq11#q11a1a11q111$a11
+
 Casos de aceitação quando a palavra tem mais de um símbolo:
-q1a11ea111a1q11#q11a1ea11q111$a11a1 (nao era pra dar certo)
-q1a11ea111a1q11#q11a1ea11a1q1$a11a1a11a1a11
+q1a11ea1eq11#q11a1a1eeq1$a11a1a11a1
 q1a11a111a1q11#q11a1a11q1$a11a1a11
 q1a11ea1q1$a11a11
 q1a1a1a1a11q11#q11a11a11a11a111q11#q11a1111a1eeq111$a1a11
