@@ -28,13 +28,13 @@ q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a1a11<br>
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a1a11<br>
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a1a11<br>
 
-###### abb (rejeição):
+###### abb:
 Este exemplo deve rejeitar a entrada.<br>
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a11a11<br>
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a11a11<br>
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a11a11<br>
 
-###### aabbc (rejeição):
+###### aabbc:
 Este exemplo deve rejeitar a entrada.<br>
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a1a11a11a111<br>
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a1a11a11a111<br>
