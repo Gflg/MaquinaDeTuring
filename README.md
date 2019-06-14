@@ -10,7 +10,7 @@ Outros dois arquivos (empilha.jff e desempilha.jff) são utilizados na forma de 
 Para testar foram utilizados os seguintes exemplos listados abaixo:
 
 ### Exemplo 1
-![eq1](http://www.sciweavers.org/upload/Tex2Img_1560437898/render.png)
+![L1](https://i.ibb.co/W6312MR/l1.gif)
 <br>
 Nos casos do exemplo 1 foram utilizadas 3 entradas para o mesmo teste no intuito de mostrar que a ordem das transições não afeta a resposta da nossa Máquina de Turing.
 
@@ -42,7 +42,7 @@ q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a1a11a11a111<br>
 
 ### Exemplo 2
 
-![eq2](http://www.sciweavers.org/upload/Tex2Img_1560438373/render.png)
+![L2](https://i.ibb.co/fSXHX1V/l2.gif)
 
 ##### Palavras de entrada:
 
