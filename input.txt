@@ -1,62 +1,61 @@
-Caso de rejeição das transições do estado inicial:
+Caso de rejeiÃ§Ã£o das transiÃ§Ãµes do estado inicial:
 q1a11a111a1eq11#q11a1a11eq111$a1a11
 
-Caso de rejeição por tentar desempilhar simbolo que não está no topo:
+Caso de rejeiÃ§Ã£o por tentar desempilhar simbolo que nÃ£o estÃ¡ no topo:
 q1a1a111a1eq11#q11a1a11eq111$a1a11
 q1a11a111a1eq11#q11a1ea11q111$a11a1
 q1a11a111a1q11#q11a1a11q111$a11
 
-Caso de rejeição por ter um simbolo na pilha e palavra vazia:
+Caso de rejeiÃ§Ã£o por ter um simbolo na pilha e palavra vazia:
 q1a11ea1eq11#q11a1a11q111$a11
 q1a11a111a1q11#q1a1a111a1q11$a1
 
-Caso de aceitação quando a palavra tem apenas um símbolo:
+Caso de aceitaÃ§Ã£o quando a palavra tem apenas um sÃ­mbolo:
 q1a11ea1eq11#q11a1a1eeq111$a11a1
 q1a11eeeq11#q11a1a11q111$a11
 
-Casos de aceitação quando a palavra tem mais de um símbolo:
+Casos de aceitaÃ§Ã£o quando a palavra tem mais de um sÃ­mbolo:
 q1a11ea1eq11#q11a1a1eeq1$a11a1a11a1
 q1a11ea111a1q11#q11a1a11q1$a11a1a11
 q1a11ea1q1$a11a11
 q1a1a1a1a11q11#q11a11a11a11a111q11#q11a1111a1eeq111$a1a11
 q1a1a1a1a11q11#q11a11a11a11a111q11#q11a1111a1eeq111$a1a11a1111
 
-Casos de rejeição quando visita mais de um estado:
+Casos de rejeiÃ§Ã£o quando visita mais de um estado:
 q1a11a111a1q11$a11a11
 q1a11a111a1q11#q11a1a11q111$a111a1
 q1a11a111a1q11#q11a1a11q111#q11a111a111a1q11$a11a1111
 q1a1a1a1a11q11#q11a11a11a11a111q11#q11a1111a1eeq111$a1a111a1
 
 
-
 l = anbn, n > 0:
+
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1
 
-aabb (aceitação):
+aabb (aceitaÃ§Ã£o):
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a1a11a11
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a1a11a11
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a1a11a11
 
-aab (rejeição):
+aab (rejeiÃ§Ã£o):
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a1a11
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a1a11
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a1a11
 
-abb (rejeição):
+abb (rejeiÃ§Ã£o):
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a11a11
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a11a11
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a11a11
 
-aabbc (rejeição):
+aabbc (rejeiÃ§Ã£o):
 q1a1ea1eq1#q1a11a1eeq11#q11a11a1eeq11$a1a1a11a11a111
 q11a11a1eeq11#q1a1ea1eq1#q1a11a1eeq11$a1a1a11a11a111
 q11a11a1eeq11#q1a11a1eeq11#q1a1ea1eq1$a1a1a11a11a111
 
 
 l = anbmcmdn, n>0 e m>0:
-
 
 aabcdd:
 q1a1ea1eq1#q1a11ea11eq11#q11a11ea11eq11#q11a111a11eeq111#q111a111a11eeq111#q111a1111a1eeq1111#q1111a1111a1eeq1111$a1a1a11a111a1111a1111
@@ -72,7 +71,3 @@ q1a1ea1eq1#q1a11ea11eq11#q11a11ea11eq11#q11a111a11eeq111#q111a111a11eeq111#q111a
 
 aabbccdd:
 q1a1ea1eq1#q1a11ea11eq11#q11a11ea11eq11#q11a111a11eeq111#q111a111a11eeq111#q111a1111a1eeq1111#q1111a1111a1eeq1111$a1a1a11a11a111a111a1111a1111
-
-
-
-
