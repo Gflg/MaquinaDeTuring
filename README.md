@@ -60,3 +60,26 @@ q1a1ea1eq1#q1a11ea11eq11#q11a11ea11eq11#q11a111a11eeq111#q111a111a11eeq111#q111a
 
 ###### aabbccdd:
 q1a1ea1eq1#q1a11ea11eq11#q11a11ea11eq11#q11a111a11eeq111#q111a111a11eeq111#q111a1111a1eeq1111#q1111a1111a1eeq1111$a1a1a11a11a111a111a1111a1111
+
+
+### Outros exemplos de rejeição
+
+###### ab
+q1a11a111a1eq11#q11a1a11eq111$a1a11
+Falha ao tentar encontrar a no estado inicial q1, que possui apenas transição com o símbolo b para q2.
+
+###### ab
+q1a1a111a1eq11#q11a1a11eq111$a1a11
+Falha por tentar desempilhar simbolo que não está no topo da pilha.
+
+##### b
+q1a11ea1eq11#q11a1a11q111$a11
+Falha por ter um símbolo na pilha enquanto a palavra foi toda percorrida.
+
+##### ca
+q1a111eeeq111#q11a1a11q111$a111a1
+Falha por ir ao estado q3, que não possui transições, ao ler c enquanto a palavra não foi toda percorrida.
+
+##### abbbbd
+q1111a1eea11q11#q11a11eeeq11#q11a1111a11eeq111$a1a11a11a11a11a1111
+Falha pelo fato de que o autômato de pilha não possui o estado inicial q1.
